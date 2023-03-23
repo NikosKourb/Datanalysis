@@ -1,0 +1,378 @@
+
+[61]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64765
+           1       0.89      0.95      0.92     51617
+
+    accuracy                           0.93    116382
+   macro avg       0.92      0.93      0.92    116382
+weighted avg       0.93      0.93      0.93    116382
+
+---------------------------------------------------------------
+Precision score: 0.925211802512416
+Recall score: 0.9545692310672841
+Accuracy score: 0.925211802512416
+F1 score: 0.9188423094136954
+
+ROC AUC(rfc): 0.9685385552262002
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9518354123860568
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58406  6359]
+ [ 2345 49272]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.25940728187561 seconds
+
+[2022-04-02 06:46:07.743391]
+===============================================================
+
+
+
+[62]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64858
+           1       0.88      0.95      0.92     51553
+
+    accuracy                           0.92    116411
+   macro avg       0.92      0.93      0.92    116411
+weighted avg       0.93      0.92      0.92    116411
+
+---------------------------------------------------------------
+Precision score: 0.9229454261195248
+Recall score: 0.9546292165344403
+Accuracy score: 0.9229454261195248
+F1 score: 0.9164788915994712
+
+ROC AUC(rfc): 0.9659317869318836
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9468825726789336
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58227  6631]
+ [ 2339 49214]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 39.8890323638916 seconds
+
+[2022-04-02 06:46:52.218753]
+===============================================================
+
+
+
+[63]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64766
+           1       0.88      0.96      0.92     51694
+
+    accuracy                           0.92    116460
+   macro avg       0.92      0.93      0.92    116460
+weighted avg       0.93      0.92      0.92    116460
+
+---------------------------------------------------------------
+Precision score: 0.9236733642452344
+Recall score: 0.9550044492591017
+Accuracy score: 0.9236733642452344
+F1 score: 0.9174076655052266
+
+ROC AUC(rfc): 0.9673352214371707
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9498061155664893
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58203  6563]
+ [ 2326 49368]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.58172869682312 seconds
+
+[2022-04-02 06:47:37.312339]
+===============================================================
+
+
+
+[64]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64912
+           1       0.88      0.95      0.92     51551
+
+    accuracy                           0.92    116463
+   macro avg       0.92      0.93      0.92    116463
+weighted avg       0.93      0.92      0.92    116463
+
+---------------------------------------------------------------
+Precision score: 0.9233147008062647
+Recall score: 0.9535217551550892
+Accuracy score: 0.9233147008062647
+F1 score: 0.9167202842196548
+
+ROC AUC(rfc): 0.967072116351085
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9486616485342689
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58377  6535]
+ [ 2396 49155]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.29536318778992 seconds
+
+[2022-04-02 06:48:22.072527]
+===============================================================
+
+
+
+[65]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64903
+           1       0.88      0.95      0.92     51479
+
+    accuracy                           0.92    116382
+   macro avg       0.92      0.93      0.92    116382
+weighted avg       0.93      0.92      0.92    116382
+
+---------------------------------------------------------------
+Precision score: 0.9237596879242495
+Recall score: 0.9515142096777327
+Accuracy score: 0.9237596879242495
+F1 score: 0.9169498029745692
+
+ROC AUC(rfc): 0.9679534902025912
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9505557958962148
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58526  6377]
+ [ 2496 48983]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.1904993057251 seconds
+
+[2022-04-02 06:49:07.272709]
+===============================================================
+
+
+
+[66]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64805
+           1       0.88      0.95      0.92     51638
+
+    accuracy                           0.92    116443
+   macro avg       0.92      0.93      0.92    116443
+weighted avg       0.93      0.92      0.92    116443
+
+---------------------------------------------------------------
+Precision score: 0.9239542093556504
+Recall score: 0.9539099113056276
+Accuracy score: 0.9239542093556504
+F1 score: 0.9175289417067922
+
+ROC AUC(rfc): 0.9677002782264031
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9510549694212282
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58330  6475]
+ [ 2380 49258]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.718440532684326 seconds
+
+[2022-04-02 06:49:52.720969]
+===============================================================
+
+
+
+[67]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64728
+           1       0.88      0.95      0.92     51667
+
+    accuracy                           0.92    116395
+   macro avg       0.92      0.93      0.92    116395
+weighted avg       0.93      0.92      0.92    116395
+
+---------------------------------------------------------------
+Precision score: 0.9243180548992654
+Recall score: 0.9549035167515049
+Accuracy score: 0.9243180548992654
+F1 score: 0.918042853288427
+
+ROC AUC(rfc): 0.9677289731361236
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9499791504738906
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58249  6479]
+ [ 2330 49337]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.740575313568115 seconds
+
+[2022-04-02 06:50:38.054654]
+===============================================================
+
+
+
+[68]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64810
+           1       0.88      0.96      0.92     51627
+
+    accuracy                           0.93    116437
+   macro avg       0.92      0.93      0.92    116437
+weighted avg       0.93      0.93      0.93    116437
+
+---------------------------------------------------------------
+Precision score: 0.9253416010374709
+Recall score: 0.9561663470664574
+Accuracy score: 0.9253416010374709
+F1 score: 0.9190754135597323
+
+ROC AUC(rfc): 0.9675035634990713
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9497122690494522
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58380  6430]
+ [ 2263 49364]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.79691958427429 seconds
+
+[2022-04-02 06:51:23.333251]
+===============================================================
+
+
+
+[69]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64874
+           1       0.88      0.95      0.92     51593
+
+    accuracy                           0.92    116467
+   macro avg       0.92      0.93      0.92    116467
+weighted avg       0.93      0.92      0.92    116467
+
+---------------------------------------------------------------
+Precision score: 0.923231473292864
+Recall score: 0.9530944120326401
+Accuracy score: 0.923231473292864
+F1 score: 0.9166627830026005
+
+ROC AUC(rfc): 0.9666660693436263
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9481127407494738
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58353  6521]
+ [ 2420 49173]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.60638475418091 seconds
+
+[2022-04-02 06:52:08.680595]
+===============================================================
+
+
+
+[70]================Random_Forest_Classifier(opt-01_params_lr_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.90      0.93     64767
+           1       0.88      0.95      0.92     51694
+
+    accuracy                           0.92    116461
+   macro avg       0.92      0.93      0.92    116461
+weighted avg       0.93      0.92      0.92    116461
+
+---------------------------------------------------------------
+Precision score: 0.923665433063429
+Recall score: 0.9541532866483537
+Accuracy score: 0.923665433063429
+F1 score: 0.9173315479179452
+
+ROC AUC(rfc): 0.9671119319071297
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9489131452361854
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[58247  6520]
+ [ 2370 49324]]
+---------------------------------------------------------------
+Model Parameters:
+{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': 'balanced', 'criterion': 'entropy', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 150, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 40.82273721694946 seconds
+
+[2022-04-02 06:52:54.030322]
+===============================================================
