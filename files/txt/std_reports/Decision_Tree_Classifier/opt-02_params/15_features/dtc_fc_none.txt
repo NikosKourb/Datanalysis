@@ -1,0 +1,378 @@
+
+[1]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42577
+           1       0.86      0.91      0.88     21467
+
+    accuracy                           0.92     64044
+   macro avg       0.91      0.92      0.91     64044
+weighted avg       0.92      0.92      0.92     64044
+
+---------------------------------------------------------------
+Precision score: 0.9194772344013491
+Recall score: 0.9063679135417152
+Accuracy score: 0.9194772344013491
+F1 score: 0.8829842753738286
+
+ROC AUC(dtc): 0.9348220551604777
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8863602932190044
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39430  3147]
+ [ 2010 19457]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.2497198581695557 seconds
+
+[2022-03-20 14:58:30.552300]
+===============================================================
+
+
+
+[2]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42532
+           1       0.86      0.91      0.88     21496
+
+    accuracy                           0.92     64028
+   macro avg       0.91      0.92      0.91     64028
+weighted avg       0.92      0.92      0.92     64028
+
+---------------------------------------------------------------
+Precision score: 0.9207221840444806
+Recall score: 0.9080759211016003
+Accuracy score: 0.9207221840444806
+F1 score: 0.8849397044156315
+
+ROC AUC(dtc): 0.9340626912021688
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8873454511760714
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39432  3100]
+ [ 1976 19520]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.1716079711914062 seconds
+
+[2022-03-20 14:58:40.724139]
+===============================================================
+
+
+
+[3]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42525
+           1       0.87      0.91      0.89     21550
+
+    accuracy                           0.92     64075
+   macro avg       0.91      0.92      0.91     64075
+weighted avg       0.92      0.92      0.92     64075
+
+---------------------------------------------------------------
+Precision score: 0.9218728053062817
+Recall score: 0.9093735498839908
+Accuracy score: 0.9218728053062817
+F1 score: 0.8867420814479638
+
+ROC AUC(dtc): 0.9374940920517616
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.891902051640912
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39472  3053]
+ [ 1953 19597]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.187229871749878 seconds
+
+[2022-03-20 14:58:50.940497]
+===============================================================
+
+
+
+[4]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42526
+           1       0.86      0.91      0.89     21532
+
+    accuracy                           0.92     64058
+   macro avg       0.91      0.92      0.91     64058
+weighted avg       0.92      0.92      0.92     64058
+
+---------------------------------------------------------------
+Precision score: 0.92175840644416
+Recall score: 0.9099944268994984
+Accuracy score: 0.92175840644416
+F1 score: 0.8866063348416289
+
+ROC AUC(dtc): 0.9366258705135542
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8904518468272697
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39452  3074]
+ [ 1938 19594]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.1716322898864746 seconds
+
+[2022-03-20 14:59:01.203710]
+===============================================================
+
+
+
+[5]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42551
+           1       0.87      0.91      0.89     21521
+
+    accuracy                           0.92     64072
+   macro avg       0.91      0.92      0.91     64072
+weighted avg       0.92      0.92      0.92     64072
+
+---------------------------------------------------------------
+Precision score: 0.9225090523161443
+Recall score: 0.9072069141768505
+Accuracy score: 0.9225090523161443
+F1 score: 0.8871924204212391
+
+ROC AUC(dtc): 0.9349919743765368
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8890984477763914
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39583  2968]
+ [ 1997 19524]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.265324354171753 seconds
+
+[2022-03-20 14:59:11.417707]
+===============================================================
+
+
+
+[6]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.92      0.94     42552
+           1       0.86      0.91      0.88     21494
+
+    accuracy                           0.92     64046
+   macro avg       0.91      0.92      0.91     64046
+weighted avg       0.92      0.92      0.92     64046
+
+---------------------------------------------------------------
+Precision score: 0.9201043000343503
+Recall score: 0.9106262212710524
+Accuracy score: 0.9201043000343503
+F1 score: 0.8843955448116937
+
+ROC AUC(dtc): 0.9339687363926007
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8849443355606381
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39356  3196]
+ [ 1921 19573]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.2184679508209229 seconds
+
+[2022-03-20 14:59:22.028948]
+===============================================================
+
+
+
+[7]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42574
+           1       0.87      0.91      0.89     21490
+
+    accuracy                           0.92     64064
+   macro avg       0.91      0.92      0.91     64064
+weighted avg       0.92      0.92      0.92     64064
+
+---------------------------------------------------------------
+Precision score: 0.923233016983017
+Recall score: 0.9106561191251745
+Accuracy score: 0.923233016983017
+F1 score: 0.8883744155431477
+
+ROC AUC(dtc): 0.9348934392022273
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8897958944925499
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39576  2998]
+ [ 1920 19570]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.2028758525848389 seconds
+
+[2022-03-20 14:59:32.260925]
+===============================================================
+
+
+
+[8]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94     42532
+           1       0.86      0.92      0.89     21517
+
+    accuracy                           0.92     64049
+   macro avg       0.91      0.92      0.92     64049
+weighted avg       0.93      0.92      0.92     64049
+
+---------------------------------------------------------------
+Precision score: 0.9231838123936361
+Recall score: 0.9195984570339731
+Accuracy score: 0.9231838123936361
+F1 score: 0.8894232930282734
+
+ROC AUC(dtc): 0.9367857177932934
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8919750917455591
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39342  3190]
+ [ 1730 19787]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.2028486728668213 seconds
+
+[2022-03-20 14:59:42.853647]
+===============================================================
+
+
+
+[9]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42427
+           1       0.86      0.91      0.88     21606
+
+    accuracy                           0.92     64033
+   macro avg       0.91      0.92      0.91     64033
+weighted avg       0.92      0.92      0.92     64033
+
+---------------------------------------------------------------
+Precision score: 0.91971327284369
+Recall score: 0.9085902064241415
+Accuracy score: 0.91971327284369
+F1 score: 0.8842195347161228
+
+ROC AUC(dtc): 0.935108102906068
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8906310394218335
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39261  3166]
+ [ 1975 19631]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.2497100830078125 seconds
+
+[2022-03-20 14:59:53.017960]
+===============================================================
+
+
+
+[10]================Decision_Tree_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42559
+           1       0.86      0.91      0.89     21456
+
+    accuracy                           0.92     64015
+   macro avg       0.91      0.92      0.91     64015
+weighted avg       0.92      0.92      0.92     64015
+
+---------------------------------------------------------------
+Precision score: 0.921143481996407
+Recall score: 0.9103281133482476
+Accuracy score: 0.921143481996407
+F1 score: 0.885564018861081
+
+ROC AUC(dtc): 0.9354533829240064
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8903968942098187
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39435  3124]
+ [ 1924 19532]]
+---------------------------------------------------------------
+Model Parameters:
+{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'entropy', 'max_depth': 25, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'random'}
+---------------------------------------------------------------
+Runtime: 1.177074670791626 seconds
+
+[2022-03-20 15:00:03.134394]
+===============================================================
