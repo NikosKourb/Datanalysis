@@ -1,0 +1,68 @@
+To open Anaconda Prompt: Windows: Click Start, search, or select Anaconda Prompt from the menu.
+
+conda create -n py37 python=3.7  #for version 3.7
+activate py37
+
+Active code page: 1253
+
+cmd commands:
+
+python --version
+
+pip --version
+
+pip install virtualenv
+
+pip install virtualenvwrapper-win
+
+remove virtual environment //rmvirtualenv [-a project_path] [-i package] [-r requirements_file] [virtualenv options] ENVNAME
+create virtual environment //mkvirtualenv [-a project_path] [-i package] [-r requirements_file] [virtualenv options] ENVNAME
+python -m venv dipl-env
+mkvirtualenv -a C:\Users\NIKOS\Desktop\Files\[00]~[Downloads]\[Diplwmatiki]\[04]~[Dataset.Me8odoi.and.Ergaleia]\[Datasets.and.Code] dipl-venv
+
+workon dipl-venv
+
+
+
+'''Anaconda commands in conda promt''''''
+   
+conda create -n py37 python=3.7  #for version 3.7
+conda activate py37
+conda install pip
+conda install wheel
+conda install pandas
+conda install -c conda-forge imbalanced-learn
+conda install matplotlib
+pip install matplotlib
+conda install seaborn
+pip install seaborn
+
+Visualizing Decision Trees:
+pip install graphviz
+pip install pydotplus
+
+Installing XGBoost Regression:
+pip install xgboost
+
+'''
+'''
+
+covid19_df = pd.read_csv('01.Covid19MPD.(Pos_valid_bin_21).csv')
+print(covid19_df.head())
+print(covid19_df.info())
+print(covid19_df.describe())
+
+scaler = StandardScaler()
+ros = RandomOverSampler()
+scaler = MinMaxScaler()
+
+Pipeline:
+steps = [('sampler',ros),
+         ('scaler', scaler),
+         ('LogReg',log_clf)]
+pipe = Pipeline(steps=steps, memory='tmp')
+
+strategy = ['not majority', 'all']
+'sampler__sampling_strategy':strategy
+
+'''

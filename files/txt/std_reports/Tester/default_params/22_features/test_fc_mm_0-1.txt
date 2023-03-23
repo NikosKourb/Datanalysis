@@ -1,0 +1,74 @@
+
+[5]================Tester(default_params_fc_valid_lb_mm_0-1)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42532
+           1       0.87      0.91      0.89     21496
+
+    accuracy                           0.93     64028
+   macro avg       0.91      0.92      0.92     64028
+weighted avg       0.93      0.93      0.93     64028
+
+---------------------------------------------------------------
+Precision score: 0.9253763978259512
+Recall score: 0.9084946036471901
+Accuracy score: 0.9253763978259512
+F1 score: 0.8910028287252487
+
+ROC AUC(test): 0.9709147134943839
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9270059390175852
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39721  2811]
+ [ 1967 19529]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.9913105964660645 seconds
+
+[2022-03-12 03:21:52.303875]
+===============================================================
+
+
+
+[6]================Tester(default_params_fc_valid_lb_mm_0-1)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42492
+           1       0.87      0.91      0.89     21540
+
+    accuracy                           0.93     64032
+   macro avg       0.91      0.92      0.92     64032
+weighted avg       0.93      0.93      0.93     64032
+
+---------------------------------------------------------------
+Precision score: 0.9259745127436282
+Recall score: 0.9114670380687093
+Accuracy score: 0.9259745127436282
+F1 score: 0.8922874153524519
+
+ROC AUC(test): 0.9708404612248384
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9268960985517939
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39659  2833]
+ [ 1907 19633]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.8648293018341064 seconds
+
+[2022-03-12 03:22:57.854214]
+===============================================================

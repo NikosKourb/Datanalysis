@@ -1,0 +1,1114 @@
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_fc_valid_lb_none.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.343300
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.159316
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.307201
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.138267
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.252924
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.118963
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 139.5291588306427 seconds
+
+[2022-02-27 14:37:32.678110]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_fc_valid_lb_std.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.343281
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.158561
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.307201
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.138267
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.252924
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.118963
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 139.65148544311523 seconds
+
+[2022-02-27 14:39:52.532672]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_fc_valid_lb_mm_0-1.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.343281
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.158561
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.307201
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.138267
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.252924
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.118963
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 137.6860044002533 seconds
+
+[2022-02-27 14:42:10.374851]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_fc_valid_lb_mm_0-10.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.343281
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.158561
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.307201
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.138267
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.252924
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.118963
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 138.70981788635254 seconds
+
+[2022-02-27 14:44:29.272115]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_fc_valid_lb_mm_0-100.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.343281
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.158561
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.307201
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.138267
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.252924
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.118963
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 137.7178943157196 seconds
+
+[2022-02-27 14:46:47.193049]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_fc_valid_lb_mm_0-1000.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.343281
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.158561
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.307201
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.138267
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.611191
+ICU_2                                   0.564761
+INTUBATED_2                             0.497772
+AGE                                     0.252924
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.118963
+CONTACT_WITH_COVID-19_CASE              0.095357
+SEX                                     0.062699
+PREGNANCY_97                            0.062699
+ASTHMA                                  0.005100
+SMOKER                                 -0.007945
+IMMUNOSUPPRESSED                       -0.049400
+PREGNANCY_2                            -0.059248
+OTHER_CHRONIC_DISEASE                  -0.068024
+OBESITY                                -0.076814
+CARDIOVASCULAR                         -0.089797
+COPD                                   -0.097991
+CHRONIC_KIDNEY_FAILURE                 -0.140255
+DIABETIC                               -0.223604
+HYPERTENSION                           -0.231179
+PNEUMONIA                              -0.532816
+INTUBATED_97                           -0.611191
+ICU_97                                 -0.611191
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 137.67047214508057 seconds
+
+[2022-02-27 14:49:05.082187]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_lr_valid_lb_none.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.369515
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.131706
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.346646
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.119093
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.285336
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.101985
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 66.4214255809784 seconds
+
+[2022-02-27 14:50:11.706700]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_lr_valid_lb_std.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.369497
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.131305
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.346646
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.119093
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.285336
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.101985
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 67.0805516242981 seconds
+
+[2022-02-27 14:51:18.865362]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_lr_valid_lb_mm_0-1.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.369497
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.131305
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.346646
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.119093
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.285336
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.101985
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 66.92707014083862 seconds
+
+[2022-02-27 14:52:25.870541]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_lr_valid_lb_mm_0-10.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.369497
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.131305
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.346646
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.119093
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.285336
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.101985
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 67.68394327163696 seconds
+
+[2022-02-27 14:53:33.632600]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_lr_valid_lb_mm_0-100.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.369497
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.131305
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.346646
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.119093
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.285336
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.101985
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 66.60899567604065 seconds
+
+[2022-02-27 14:54:40.335328]
+===============================================================
+
+
+
+===============[All Features Correlation]===============
+
+File: files/csv/Covid19MPD_8_23_en_pos_lr_valid_lb_mm_0-1000.csv
+
+
+---------------[Pearson Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.369497
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.131305
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Spearman Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.346646
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.119093
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+---------------[Kendall Correllation]---------------
+SURVIVED                                1.000000
+TYPE_OF_PATIENT                         0.575559
+ICU_2                                   0.521012
+INTUBATED_2                             0.455656
+AGE                                     0.285336
+CONTACT_WITH_COVID-19_CASE              0.135205
+DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION    0.101985
+SEX                                     0.076480
+PREGNANCY_97                            0.076480
+ASTHMA                                  0.010662
+SMOKER                                 -0.008319
+IMMUNOSUPPRESSED                       -0.043978
+OTHER_CHRONIC_DISEASE                  -0.063106
+OBESITY                                -0.067377
+PREGNANCY_2                            -0.071735
+CARDIOVASCULAR                         -0.087224
+COPD                                   -0.094963
+CHRONIC_KIDNEY_FAILURE                 -0.130623
+DIABETIC                               -0.220825
+HYPERTENSION                           -0.229349
+PNEUMONIA                              -0.520165
+INTUBATED_97                           -0.575559
+ICU_97                                 -0.575559
+Name: SURVIVED, dtype: float64
+----------------------------------------------------
+
+Runtime: 66.93766641616821 seconds
+
+[2022-02-27 14:55:47.366723]
+===============================================================
