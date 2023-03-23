@@ -1,0 +1,378 @@
+
+[51]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.92      0.95     42553
+           1       0.86      0.95      0.90     21508
+
+    accuracy                           0.93     64061
+   macro avg       0.92      0.94      0.93     64061
+weighted avg       0.94      0.93      0.93     64061
+
+---------------------------------------------------------------
+Precision score: 0.9316588876227346
+Recall score: 0.9531802120141343
+Accuracy score: 0.9316588876227346
+F1 score: 0.9035257822829441
+
+ROC AUC(mlp): 0.9711560873309033
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9253552342687239
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39182  3371]
+ [ 1007 20501]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 56.609909772872925 seconds
+
+[2022-05-17 01:46:24.434578]
+===============================================================
+
+
+
+[52]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.92      0.95     42458
+           1       0.86      0.95      0.90     21602
+
+    accuracy                           0.93     64060
+   macro avg       0.92      0.94      0.93     64060
+weighted avg       0.94      0.93      0.93     64060
+
+---------------------------------------------------------------
+Precision score: 0.9319075866375273
+Recall score: 0.9518100175909638
+Accuracy score: 0.9319075866375273
+F1 score: 0.9040981444024273
+
+ROC AUC(mlp): 0.9709414287601379
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9280019947921097
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39137  3321]
+ [ 1041 20561]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 146.71682834625244 seconds
+
+[2022-05-17 01:49:01.346117]
+===============================================================
+
+
+
+[53]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95     42595
+           1       0.86      0.96      0.91     21468
+
+    accuracy                           0.93     64063
+   macro avg       0.92      0.94      0.93     64063
+weighted avg       0.94      0.93      0.93     64063
+
+---------------------------------------------------------------
+Precision score: 0.9329254015578415
+Recall score: 0.9606856716974101
+Accuracy score: 0.9329254015578415
+F1 score: 0.9056537490394116
+
+ROC AUC(mlp): 0.9717581124300173
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9284069819371001
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39142  3453]
+ [  844 20624]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 196.10718703269958 seconds
+
+[2022-05-17 01:52:27.409223]
+===============================================================
+
+
+
+[54]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95     42526
+           1       0.86      0.97      0.91     21522
+
+    accuracy                           0.93     64048
+   macro avg       0.92      0.94      0.93     64048
+weighted avg       0.94      0.93      0.94     64048
+
+---------------------------------------------------------------
+Precision score: 0.934611541343992
+Recall score: 0.9651519375522721
+Accuracy score: 0.934611541343992
+F1 score: 0.9084229860928891
+
+ROC AUC(mlp): 0.9731231631931494
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9326427160619923
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39088  3438]
+ [  750 20772]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 233.4612729549408 seconds
+
+[2022-05-17 01:56:32.657028]
+===============================================================
+
+
+
+[55]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42427
+           1       0.87      0.95      0.91     21606
+
+    accuracy                           0.93     64033
+   macro avg       0.92      0.94      0.93     64033
+weighted avg       0.94      0.93      0.93     64033
+
+---------------------------------------------------------------
+Precision score: 0.933752908656474
+Recall score: 0.9468666111265389
+Accuracy score: 0.933752908656474
+F1 score: 0.9060631560299394
+
+ROC AUC(mlp): 0.9724622953163775
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9298548071193862
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39333  3094]
+ [ 1148 20458]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 179.25588607788086 seconds
+
+[2022-05-17 01:59:41.789156]
+===============================================================
+
+
+
+[56]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.92      0.95     42577
+           1       0.86      0.95      0.91     21467
+
+    accuracy                           0.93     64044
+   macro avg       0.92      0.94      0.93     64044
+weighted avg       0.94      0.93      0.93     64044
+
+---------------------------------------------------------------
+Precision score: 0.9331553307101368
+Recall score: 0.9517398798155308
+Accuracy score: 0.9331553307101368
+F1 score: 0.9051680216201847
+
+ROC AUC(mlp): 0.9718041700677089
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9290528721510466
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39332  3245]
+ [ 1036 20431]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 236.27612948417664 seconds
+
+[2022-05-17 02:03:48.008350]
+===============================================================
+
+
+
+[57]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42602
+           1       0.87      0.95      0.90     21445
+
+    accuracy                           0.93     64047
+   macro avg       0.92      0.94      0.93     64047
+weighted avg       0.94      0.93      0.93     64047
+
+---------------------------------------------------------------
+Precision score: 0.9328618046122379
+Recall score: 0.9470739100023315
+Accuracy score: 0.9328618046122379
+F1 score: 0.9042742653606411
+
+ROC AUC(mlp): 0.9718423510318067
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9279004273635314
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39437  3165]
+ [ 1135 20310]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 184.19715642929077 seconds
+
+[2022-05-17 02:07:02.362785]
+===============================================================
+
+
+
+[58]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.93      0.95     42512
+           1       0.87      0.95      0.91     21542
+
+    accuracy                           0.93     64054
+   macro avg       0.92      0.94      0.93     64054
+weighted avg       0.94      0.93      0.94     64054
+
+---------------------------------------------------------------
+Precision score: 0.9349142910669123
+Recall score: 0.9544610528270355
+Accuracy score: 0.9349142910669123
+F1 score: 0.9079508070035989
+
+ROC AUC(mlp): 0.9727448989417596
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9322874393129041
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39324  3188]
+ [  981 20561]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 212.80927348136902 seconds
+
+[2022-05-17 02:10:45.297782]
+===============================================================
+
+
+
+[59]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.92      0.95     42574
+           1       0.86      0.96      0.91     21490
+
+    accuracy                           0.93     64064
+   macro avg       0.92      0.94      0.93     64064
+weighted avg       0.94      0.93      0.93     64064
+
+---------------------------------------------------------------
+Precision score: 0.93314498001998
+Recall score: 0.9620753838994881
+Accuracy score: 0.93314498001998
+F1 score: 0.906142484605439
+
+ROC AUC(mlp): 0.9712527382044103
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9257630293343623
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39106  3468]
+ [  815 20675]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 226.26274251937866 seconds
+
+[2022-05-17 02:14:41.499687]
+===============================================================
+
+
+
+[60]================Multi_Layer_Perceptrons(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.92      0.95     42551
+           1       0.86      0.95      0.90     21521
+
+    accuracy                           0.93     64072
+   macro avg       0.92      0.94      0.93     64072
+weighted avg       0.94      0.93      0.93     64072
+
+---------------------------------------------------------------
+Precision score: 0.9319671619428144
+Recall score: 0.9498164583430138
+Accuracy score: 0.9319671619428144
+F1 score: 0.9036493446210295
+
+ROC AUC(mlp): 0.9712802892077441
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.927366409804314
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39272  3279]
+ [ 1080 20441]]
+---------------------------------------------------------------
+Model Parameters:
+{'activation': 'tanh', 'alpha': 1e-05, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.9, 'early_stopping': False, 'epsilon': 1e-05, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 300, 'momentum': 0.5, 'n_iter_no_change': 30, 'nesterovs_momentum': True, 'power_t': 0.3, 'random_state': 42, 'shuffle': True, 'solver': 'adam', 'tol': 1e-05, 'validation_fraction': 0.02, 'verbose': False, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 199.92616772651672 seconds
+
+[2022-05-17 02:18:11.662157]
+===============================================================
