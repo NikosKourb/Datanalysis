@@ -1,0 +1,378 @@
+
+[51]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42492
+           1       0.87      0.94      0.90     21540
+
+    accuracy                           0.93     64032
+   macro avg       0.92      0.93      0.93     64032
+weighted avg       0.94      0.93      0.93     64032
+
+---------------------------------------------------------------
+Precision score: 0.9327679910044977
+Recall score: 0.9408077994428969
+Accuracy score: 0.9327679910044977
+F1 score: 0.9039812646370023
+
+ROC AUC(xbc): 0.9722149211592268
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9329585761360697
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39462  3030]
+ [ 1275 20265]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 15.155811071395874 seconds
+
+[2022-03-25 06:18:49.239551]
+===============================================================
+
+
+
+[52]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42552
+           1       0.87      0.95      0.91     21494
+
+    accuracy                           0.93     64046
+   macro avg       0.92      0.94      0.93     64046
+weighted avg       0.94      0.93      0.93     64046
+
+---------------------------------------------------------------
+Precision score: 0.9334696936576835
+Recall score: 0.9474737135944915
+Accuracy score: 0.9334696936576835
+F1 score: 0.9052921695450202
+
+ROC AUC(xbc): 0.9718333554323052
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9318586195927082
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39420  3132]
+ [ 1129 20365]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.19972538948059 seconds
+
+[2022-03-25 06:19:14.180280]
+===============================================================
+
+
+
+[53]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42597
+           1       0.87      0.95      0.90     21456
+
+    accuracy                           0.93     64053
+   macro avg       0.92      0.94      0.93     64053
+weighted avg       0.94      0.93      0.93     64053
+
+---------------------------------------------------------------
+Precision score: 0.9327275849686978
+Recall score: 0.9450969425801641
+Accuracy score: 0.9327275849686978
+F1 score: 0.9039563133845983
+
+ROC AUC(xbc): 0.9723862122195573
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9339618145667741
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39466  3131]
+ [ 1178 20278]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.171599626541138 seconds
+
+[2022-03-25 06:19:39.243737]
+===============================================================
+
+
+
+[54]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42486
+           1       0.87      0.94      0.90     21576
+
+    accuracy                           0.93     64062
+   macro avg       0.92      0.94      0.93     64062
+weighted avg       0.94      0.93      0.93     64062
+
+---------------------------------------------------------------
+Precision score: 0.9325653273391402
+Recall score: 0.9445216907675195
+Accuracy score: 0.9325653273391402
+F1 score: 0.9041661120724077
+
+ROC AUC(xbc): 0.9719041857684683
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9313905659004171
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39363  3123]
+ [ 1197 20379]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 13.990159273147583 seconds
+
+[2022-03-25 06:20:04.668783]
+===============================================================
+
+
+
+[55]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42554
+           1       0.87      0.95      0.91     21484
+
+    accuracy                           0.93     64038
+   macro avg       0.92      0.94      0.93     64038
+weighted avg       0.94      0.93      0.93     64038
+
+---------------------------------------------------------------
+Precision score: 0.9332271463818358
+Recall score: 0.9480543660398436
+Accuracy score: 0.9332271463818358
+F1 score: 0.9050031102817025
+
+ROC AUC(xbc): 0.972574272589938
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9325290152907908
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39394  3160]
+ [ 1116 20368]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.175031661987305 seconds
+
+[2022-03-25 06:20:29.621001]
+===============================================================
+
+
+
+[56]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42597
+           1       0.87      0.95      0.91     21456
+
+    accuracy                           0.93     64053
+   macro avg       0.92      0.94      0.93     64053
+weighted avg       0.94      0.93      0.93     64053
+
+---------------------------------------------------------------
+Precision score: 0.9343044041653006
+Recall score: 0.947800149142431
+Accuracy score: 0.9343044041653006
+F1 score: 0.9062388591800355
+
+ROC AUC(xbc): 0.9722999416018994
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9322495696963338
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39509  3088]
+ [ 1120 20336]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.870661973953247 seconds
+
+[2022-03-25 06:20:55.171618]
+===============================================================
+
+
+
+[57]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42562
+           1       0.87      0.95      0.90     21481
+
+    accuracy                           0.93     64043
+   macro avg       0.92      0.94      0.93     64043
+weighted avg       0.94      0.93      0.93     64043
+
+---------------------------------------------------------------
+Precision score: 0.9326858516933935
+Recall score: 0.946976397746846
+Accuracy score: 0.9326858516933935
+F1 score: 0.9041893543727081
+
+ROC AUC(xbc): 0.9726370402208452
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9333596004399154
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39390  3172]
+ [ 1139 20342]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.061361074447632 seconds
+
+[2022-03-25 06:21:20.103472]
+===============================================================
+
+
+
+[58]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42495
+           1       0.87      0.95      0.91     21558
+
+    accuracy                           0.93     64053
+   macro avg       0.92      0.94      0.93     64053
+weighted avg       0.94      0.93      0.93     64053
+
+---------------------------------------------------------------
+Precision score: 0.9332896195338235
+Recall score: 0.9450783931719083
+Accuracy score: 0.9332896195338235
+F1 score: 0.9050887363674729
+
+ROC AUC(xbc): 0.9727609162687412
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9339254826068922
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39406  3089]
+ [ 1184 20374]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.950355291366577 seconds
+
+[2022-03-25 06:21:46.173121]
+===============================================================
+
+
+
+[59]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42636
+           1       0.87      0.95      0.91     21420
+
+    accuracy                           0.93     64056
+   macro avg       0.92      0.94      0.93     64056
+weighted avg       0.94      0.93      0.93     64056
+
+---------------------------------------------------------------
+Precision score: 0.934229424253778
+Recall score: 0.9456582633053221
+Accuracy score: 0.934229424253778
+F1 score: 0.9058021240916713
+
+ROC AUC(xbc): 0.9726871982961494
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9343236477499615
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39587  3049]
+ [ 1164 20256]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 13.794372797012329 seconds
+
+[2022-03-25 06:22:10.777283]
+===============================================================
+
+
+
+[60]================XGBoost_Classifier(opt-02_params_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.97      0.93      0.95     42520
+           1       0.87      0.94      0.90     21539
+
+    accuracy                           0.93     64059
+   macro avg       0.92      0.94      0.93     64059
+weighted avg       0.94      0.93      0.93     64059
+
+---------------------------------------------------------------
+Precision score: 0.9322187358528856
+Recall score: 0.94419425228655
+Accuracy score: 0.9322187358528856
+F1 score: 0.9035454060778391
+
+ROC AUC(xbc): 0.9715555021351587
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9310690995784707
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39380  3140]
+ [ 1202 20337]]
+---------------------------------------------------------------
+Model Parameters:
+{'objective': 'binary:logistic', 'use_label_encoder': True, 'base_score': 0.5, 'booster': 'gbtree', 'colsample_bylevel': 1, 'colsample_bynode': 1, 'colsample_bytree': 1, 'enable_categorical': False, 'gamma': 0, 'gpu_id': -1, 'importance_type': 'gain', 'interaction_constraints': '', 'learning_rate': 0.300000012, 'max_delta_step': 0, 'max_depth': 11, 'min_child_weight': 1, 'missing': nan, 'monotone_constraints': '(1,0)', 'n_estimators': 125, 'n_jobs': 8, 'num_parallel_tree': 1, 'predictor': 'auto', 'random_state': 42, 'reg_alpha': 0, 'reg_lambda': 1, 'scale_pos_weight': 1, 'subsample': 1, 'tree_method': 'auto', 'validate_parameters': 1, 'verbosity': None}
+---------------------------------------------------------------
+Runtime: 14.517326354980469 seconds
+
+[2022-03-25 06:22:36.225149]
+===============================================================
