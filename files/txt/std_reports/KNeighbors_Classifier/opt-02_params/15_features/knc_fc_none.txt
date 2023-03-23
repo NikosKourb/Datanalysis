@@ -1,0 +1,378 @@
+
+[1]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94     42528
+           1       0.87      0.88      0.88     21523
+
+    accuracy                           0.92     64051
+   macro avg       0.91      0.91      0.91     64051
+weighted avg       0.92      0.92      0.92     64051
+
+---------------------------------------------------------------
+Precision score: 0.9171285381961249
+Recall score: 0.8839845746410816
+Accuracy score: 0.9171285381961249
+F1 score: 0.8775830258302583
+
+ROC AUC(knc): 0.9440600243140249
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8883720709715015
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39717  2811]
+ [ 2497 19026]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 90.27274465560913 seconds
+
+[2022-06-07 00:26:52.627253]
+===============================================================
+
+
+
+[2]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94     42554
+           1       0.88      0.88      0.88     21484
+
+    accuracy                           0.92     64038
+   macro avg       0.91      0.91      0.91     64038
+weighted avg       0.92      0.92      0.92     64038
+
+---------------------------------------------------------------
+Precision score: 0.9187669821043756
+Recall score: 0.8823310370508285
+Accuracy score: 0.9187669821043756
+F1 score: 0.8793431368001113
+
+ROC AUC(knc): 0.943122882354865
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8891404483617065
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39880  2674]
+ [ 2528 18956]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 93.3676130771637 seconds
+
+[2022-06-07 00:28:35.531484]
+===============================================================
+
+
+
+[3]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94     42574
+           1       0.87      0.88      0.88     21490
+
+    accuracy                           0.92     64064
+   macro avg       0.90      0.91      0.91     64064
+weighted avg       0.92      0.92      0.92     64064
+
+---------------------------------------------------------------
+Precision score: 0.9160995254745254
+Recall score: 0.8836668217775709
+Accuracy score: 0.9160995254745254
+F1 score: 0.8760235266981894
+
+ROC AUC(knc): 0.9422246296340057
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.885444841093173
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39699  2875]
+ [ 2500 18990]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 95.37685775756836 seconds
+
+[2022-06-07 00:30:20.883584]
+===============================================================
+
+
+
+[4]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94     42577
+           1       0.87      0.88      0.88     21485
+
+    accuracy                           0.92     64062
+   macro avg       0.91      0.91      0.91     64062
+weighted avg       0.92      0.92      0.92     64062
+
+---------------------------------------------------------------
+Precision score: 0.9165339827042552
+Recall score: 0.8822899697463347
+Accuracy score: 0.9165339827042552
+F1 score: 0.8763956633301742
+
+ROC AUC(knc): 0.9434732459067208
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8895849187411133
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39759  2818]
+ [ 2529 18956]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 92.2734785079956 seconds
+
+[2022-06-07 00:32:03.354442]
+===============================================================
+
+
+
+[5]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94     42492
+           1       0.87      0.89      0.88     21540
+
+    accuracy                           0.92     64032
+   macro avg       0.91      0.91      0.91     64032
+weighted avg       0.92      0.92      0.92     64032
+
+---------------------------------------------------------------
+Precision score: 0.9194465267366316
+Recall score: 0.8877437325905293
+Accuracy score: 0.9194465267366316
+F1 score: 0.8811575503433022
+
+ROC AUC(knc): 0.9440960086560836
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8903376799027931
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39752  2740]
+ [ 2418 19122]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 95.317946434021 seconds
+
+[2022-06-07 00:33:48.321146]
+===============================================================
+
+
+
+[6]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94     42497
+           1       0.87      0.89      0.88     21577
+
+    accuracy                           0.92     64074
+   macro avg       0.91      0.91      0.91     64074
+weighted avg       0.92      0.92      0.92     64074
+
+---------------------------------------------------------------
+Precision score: 0.9174236039579237
+Recall score: 0.8861750938499328
+Accuracy score: 0.9174236039579237
+F1 score: 0.8784600188362851
+
+ROC AUC(knc): 0.9434359157493545
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8899145727423773
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39662  2835]
+ [ 2456 19121]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 117.00350332260132 seconds
+
+[2022-06-07 00:35:57.558975]
+===============================================================
+
+
+
+[7]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94     42597
+           1       0.87      0.88      0.88     21456
+
+    accuracy                           0.92     64053
+   macro avg       0.91      0.91      0.91     64053
+weighted avg       0.92      0.92      0.92     64053
+
+---------------------------------------------------------------
+Precision score: 0.9174277551402744
+Recall score: 0.8825969425801641
+Accuracy score: 0.9174277551402744
+F1 score: 0.8774644950536339
+
+ROC AUC(knc): 0.9435724441099709
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8885723482636028
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39827  2770]
+ [ 2519 18937]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 94.83379054069519 seconds
+
+[2022-06-07 00:37:50.392751]
+===============================================================
+
+
+
+[8]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.93      0.94     42572
+           1       0.87      0.89      0.88     21469
+
+    accuracy                           0.92     64041
+   macro avg       0.91      0.91      0.91     64041
+weighted avg       0.92      0.92      0.92     64041
+
+---------------------------------------------------------------
+Precision score: 0.9187551724676379
+Recall score: 0.8901672178489916
+Accuracy score: 0.9187551724676379
+F1 score: 0.8801842256764536
+
+ROC AUC(knc): 0.9427982734048987
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8868006056252746
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39727  2845]
+ [ 2358 19111]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 88.26639199256897 seconds
+
+[2022-06-07 00:39:28.628900]
+===============================================================
+
+
+
+[9]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94     42542
+           1       0.88      0.88      0.88     21513
+
+    accuracy                           0.92     64055
+   macro avg       0.91      0.91      0.91     64055
+weighted avg       0.92      0.92      0.92     64055
+
+---------------------------------------------------------------
+Precision score: 0.9183358051674342
+Recall score: 0.8823037233300794
+Accuracy score: 0.9183358051674342
+F1 score: 0.8788924131224967
+
+ROC AUC(knc): 0.9439287314323533
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.891624339566385
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39843  2699]
+ [ 2532 18981]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 84.93947863578796 seconds
+
+[2022-06-07 00:41:03.084103]
+===============================================================
+
+
+
+[10]================KNeighbors_Classifier(opt-02_params_fc_valid_lb_none)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94     42530
+           1       0.87      0.88      0.88     21515
+
+    accuracy                           0.92     64045
+   macro avg       0.91      0.91      0.91     64045
+weighted avg       0.92      0.92      0.92     64045
+
+---------------------------------------------------------------
+Precision score: 0.9182918260598018
+Recall score: 0.8839879154078549
+Accuracy score: 0.9182918260598018
+F1 score: 0.8790645004737585
+
+ROC AUC(knc): 0.944226754894455
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.8920379299813572
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39793  2737]
+ [ 2496 19019]]
+---------------------------------------------------------------
+Model Parameters:
+{'algorithm': 'ball_tree', 'leaf_size': 15, 'metric': 'minkowski', 'metric_params': None, 'n_jobs': None, 'n_neighbors': 15, 'p': 1, 'weights': 'distance'}
+---------------------------------------------------------------
+Runtime: 101.17195439338684 seconds
+
+[2022-06-07 00:42:54.116308]
+===============================================================
