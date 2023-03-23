@@ -1,0 +1,378 @@
+
+[51]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42458
+           1       0.87      0.91      0.89     21602
+
+    accuracy                           0.93     64060
+   macro avg       0.91      0.92      0.92     64060
+weighted avg       0.93      0.93      0.93     64060
+
+---------------------------------------------------------------
+Precision score: 0.9256790508897909
+Recall score: 0.9100546245717989
+Accuracy score: 0.9256790508897909
+F1 score: 0.8919893826992445
+
+ROC AUC(lgr): 0.9705303410358915
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9258151201296514
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39640  2818]
+ [ 1943 19659]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.5150303840637207 seconds
+
+[2022-03-06 01:17:56.338716]
+===============================================================
+
+
+
+[52]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42610
+           1       0.87      0.91      0.89     21461
+
+    accuracy                           0.93     64071
+   macro avg       0.91      0.92      0.92     64071
+weighted avg       0.93      0.93      0.93     64071
+
+---------------------------------------------------------------
+Precision score: 0.9250518955533705
+Recall score: 0.9096034667536461
+Accuracy score: 0.9250518955533705
+F1 score: 0.890475321594745
+
+ROC AUC(lgr): 0.9702446246538956
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9253529547315196
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39748  2862]
+ [ 1940 19521]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.6570706367492676 seconds
+
+[2022-03-06 01:18:09.698817]
+===============================================================
+
+
+
+[53]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42528
+           1       0.87      0.91      0.89     21523
+
+    accuracy                           0.93     64051
+   macro avg       0.91      0.92      0.92     64051
+weighted avg       0.93      0.93      0.93     64051
+
+---------------------------------------------------------------
+Precision score: 0.9251846185071272
+Recall score: 0.9091204757701064
+Accuracy score: 0.9251846185071272
+F1 score: 0.8909074352319811
+
+ROC AUC(lgr): 0.9705919195642704
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9269175086624333
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39692  2836]
+ [ 1956 19567]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.7025206089019775 seconds
+
+[2022-03-06 01:18:22.587684]
+===============================================================
+
+
+
+[54]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42552
+           1       0.87      0.90      0.89     21494
+
+    accuracy                           0.92     64046
+   macro avg       0.91      0.92      0.92     64046
+weighted avg       0.92      0.92      0.92     64046
+
+---------------------------------------------------------------
+Precision score: 0.9235549448833651
+Recall score: 0.9043919233274402
+Accuracy score: 0.9235549448833651
+F1 score: 0.8881527847580757
+
+ROC AUC(lgr): 0.9699558896781891
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9248093760970965
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39711  2841]
+ [ 2055 19439]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.9251322746276855 seconds
+
+[2022-03-06 01:18:36.075524]
+===============================================================
+
+
+
+[55]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42492
+           1       0.87      0.90      0.89     21540
+
+    accuracy                           0.92     64032
+   macro avg       0.91      0.92      0.92     64032
+weighted avg       0.92      0.92      0.92     64032
+
+---------------------------------------------------------------
+Precision score: 0.9237881059470265
+Recall score: 0.904363974001857
+Accuracy score: 0.9237881059470265
+F1 score: 0.8886861313868613
+
+ROC AUC(lgr): 0.9699788183406811
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9250225572056346
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39672  2820]
+ [ 2060 19480]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.577523946762085 seconds
+
+[2022-03-06 01:18:49.152891]
+===============================================================
+
+
+
+[56]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42458
+           1       0.87      0.91      0.89     21602
+
+    accuracy                           0.92     64060
+   macro avg       0.91      0.92      0.92     64060
+weighted avg       0.93      0.92      0.92     64060
+
+---------------------------------------------------------------
+Precision score: 0.9243053387449266
+Recall score: 0.907045643921859
+Accuracy score: 0.9243053387449266
+F1 score: 0.8898880486863319
+
+ROC AUC(lgr): 0.9698762077206856
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9253374602365387
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39617  2841]
+ [ 2008 19594]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 3.2492034435272217 seconds
+
+[2022-03-06 01:19:03.003048]
+===============================================================
+
+
+
+[57]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42565
+           1       0.87      0.91      0.89     21470
+
+    accuracy                           0.92     64035
+   macro avg       0.91      0.92      0.92     64035
+weighted avg       0.93      0.92      0.92     64035
+
+---------------------------------------------------------------
+Precision score: 0.9245568829546342
+Recall score: 0.9054494643688868
+Accuracy score: 0.9245568829546342
+F1 score: 0.8894786209420968
+
+ROC AUC(lgr): 0.9701240471092979
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9263146617894427
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39764  2801]
+ [ 2030 19440]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.4852335453033447 seconds
+
+[2022-03-06 01:19:15.911659]
+===============================================================
+
+
+
+[58]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42520
+           1       0.87      0.91      0.89     21539
+
+    accuracy                           0.92     64059
+   macro avg       0.91      0.92      0.92     64059
+weighted avg       0.93      0.92      0.92     64059
+
+---------------------------------------------------------------
+Precision score: 0.9239138918809223
+Recall score: 0.913087887088537
+Accuracy score: 0.9239138918809223
+F1 score: 0.8897484618168657
+
+ROC AUC(lgr): 0.9699298210159987
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9258090383104174
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39518  3002]
+ [ 1872 19667]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.436955690383911 seconds
+
+[2022-03-06 01:19:28.611785]
+===============================================================
+
+
+
+[59]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42512
+           1       0.87      0.91      0.89     21542
+
+    accuracy                           0.93     64054
+   macro avg       0.91      0.92      0.92     64054
+weighted avg       0.93      0.93      0.93     64054
+
+---------------------------------------------------------------
+Precision score: 0.9254379117619509
+Recall score: 0.9106396806238976
+Accuracy score: 0.9254379117619509
+F1 score: 0.8914792092706203
+
+ROC AUC(lgr): 0.97029045097922
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.926905744826588
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39661  2851]
+ [ 1925 19617]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.374441146850586 seconds
+
+[2022-03-06 01:19:41.406416]
+===============================================================
+
+
+
+[60]================Logistic_Regression(default_params_10_features_fc_valid_lb_mm_0-1000)================
+--------------------[Classification Report]--------------------
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.93      0.94     42525
+           1       0.87      0.91      0.89     21550
+
+    accuracy                           0.92     64075
+   macro avg       0.91      0.92      0.92     64075
+weighted avg       0.92      0.92      0.92     64075
+
+---------------------------------------------------------------
+Precision score: 0.9236363636363636
+Recall score: 0.9064501160092807
+Accuracy score: 0.9236363636363636
+F1 score: 0.8886967994358637
+
+ROC AUC(lgr): 0.969665394042811
+ROC AUC(no skill): 0.5
+
+Precision-Recall AUC: 0.9259274484614417
+
+---------------------------------------------------------------
+Confusion Matrix:
+[[39648  2877]
+ [ 2016 19534]]
+---------------------------------------------------------------
+Model Parameters:
+{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 100, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 42, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}
+---------------------------------------------------------------
+Runtime: 2.5306546688079834 seconds
+
+[2022-03-06 01:19:54.048194]
+===============================================================
