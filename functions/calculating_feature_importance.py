@@ -9,7 +9,7 @@ import pandas as pd
 
 from sklearn.inspection import permutation_importance
 
-from functions.models.create_train_predict_analyze import model_name
+from functions.models.create_train_predict_analyze import get_model_name # model_name
 from functions.models.create_train_predict_analyze import create_model
 
 from functions.write.write_to_file import write_string_in_text_file
@@ -140,7 +140,7 @@ def multi_df_feature_importance(rel_path,df_file_name_c_prefix,df_pos_type_list,
     
     features_dict = {'SEX':0,'TYPE_OF_PATIENT':0,'PNEUMONIA':0,'AGE':0,'DIABETIC':0,'COPD':0,'ASTHMA':0,
                      'IMMUNOSUPPRESSED':0,'HYPERTENSION':0,'OTHER_CHRONIC_DISEASE':0,'CARDIOVASCULAR':0,'OBESITY':0,
-                     'CHRONIC_KIDNEY_FAILURE':0,'SMOKER':0,'CONTACT_WITH_COVID-19_CASE':0,
+                     'CHRONIC_KIDNEY_FAILURE':0,'SMOKER':0,
                      'DAYS_FROM_SYMPTOM_TO_HOSPITALIZATION':0,'INTUBATED_2':0,'INTUBATED_97':0,
                      'PREGNANCY_2':0,'PREGNANCY_97':0,'ICU_2':0,'ICU_97':0}
     
@@ -163,7 +163,7 @@ def multi_df_feature_importance(rel_path,df_file_name_c_prefix,df_pos_type_list,
     
     feat_importances_all['Average'] = feat_importances_all['Importance_Score(Total)']/(len(df_pos_type_list) * len(df_scaler_type_list))
     
-    method = model_name(method_name)
+    method = get_model_name(method_name)
     
     feat_importances_all.to_csv('files/csv/f_importance/' + method + '_All_Features_Importance_Overall.csv')
     
