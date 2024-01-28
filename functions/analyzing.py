@@ -29,6 +29,7 @@ pip install pydotplus
 
 Installing XGBoost Regression:
 pip install xgboost
+pip install shap
 
 '''
 
